@@ -34,8 +34,8 @@ function ProfileHeader({ profile }: IProps) {
         backgroundColor={theme.colors.fg}
         mx="$4"
         mt="$2"
-        px="$3"
         borderRadius="$xl"
+        overflow="hidden"
       >
         <HStack
           alignItems="center"
